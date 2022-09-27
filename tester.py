@@ -1,6 +1,6 @@
 import os 
 
-os.system("gcc -Wall -pedantic-errors -ansi the1.c -o the1")
+os.system("gcc -Wall -pedantic-errors -ansi Optimization.c -o the1")
 
 length = input("short/long?\n")
 
