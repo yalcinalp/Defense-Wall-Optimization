@@ -39,7 +39,6 @@ int main() {
 
 					if(0 <= k && k < alp+1){
 
-					 	/* aga benim buraya yazdigim k < alp yerine alp+1 falan da olabilir haberin olsun o baya sikinti?  */
 					 
 						if(wall_length[k] < height){
 							 
