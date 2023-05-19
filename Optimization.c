@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main() {
@@ -7,15 +6,14 @@ int main() {
 	int tribe_sayisi;
 	int width;
 	int height;
+
 	int f_attack_time;
 	int position;
 	int speed;
 	int attack_interval;
 	int number_of_attacks;
-	int i;
-	int j;
-	int k;
-	int l;
+	
+	int i, j, k, l;
 	int alp;		/* alp dedigim variable benim ilgilendigim duvar uzunlugu */
 
 	scanf("%d", &alp);
@@ -39,19 +37,16 @@ int main() {
 
 					if(0 <= k && k < alp+1){
 
-					 
 						if(wall_length[k] < height){
 							 
 							wall_length[k] = height;
 							 
 						}
-
 					}	
 				}
 			}
 			
 			else{
-				
 				 position += attack_interval*speed;
 				 
 				 for(k=position;k<width+position;k++){
